@@ -45,7 +45,7 @@ const AddReview = () => {
             {...register("feedback")}
             placeholder="Enter your words"
           />
-          <select className="review-star py-2" {...register("star")}>
+          <select className="review-star py-2" required {...register("star")}>
             <option value="fiveStar">Five Star</option>
             <option value="fourStar">Four Star</option>
             <option value="threeStar">Three Star</option>
