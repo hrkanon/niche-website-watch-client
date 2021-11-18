@@ -1,0 +1,17 @@
+#review {
+  padding: 20px;
+  background-color: #f6f8fb;
+}
+.reviews p {
+  font-size: larger;
+}
+.review-line {
+  width: 150px;
+  height: 2px;
+  background-color: #1ccaf0;
+}
+.review-img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #1ccaf0;
+}

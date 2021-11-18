@@ -1,0 +1,19 @@
+.add-product {
+  box-shadow: 2px 5px 10px gray;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product form input,
+textarea {
+  width: 80%;
+  margin-bottom: 10px;
+}

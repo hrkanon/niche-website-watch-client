@@ -1,0 +1,9 @@
+.dashboard-sec {
+  width: 98%;
+}
+.dashboard-menu {
+  background-color: #c4e8ef;
+}
+.sign-out {
+  cursor: pointer;
+}

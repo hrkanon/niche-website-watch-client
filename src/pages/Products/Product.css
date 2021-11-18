@@ -1,0 +1,29 @@
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+}
+.heading-color {
+  color: #cabb9b;
+}
+.underline-div {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+.card {
+  max-height: 620px;
+  transition: 1s;
+}
+.product-info {
+  height: 120px;
+}
+.card:hover {
+  box-shadow: 2px 5px 10px gray;
+  border-color: rgb(0, 255, 255);
+}
+
+.product-card:hover img {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: transform 1s;
+}

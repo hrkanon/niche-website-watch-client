@@ -1,0 +1,25 @@
+.carosel-item {
+  height: 100vh;
+}
+.item-one {
+  background-image: url("../../images/banner/banner-bg-1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-two {
+  background-image: url("../../images/banner/banner-bg-2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-three {
+  background-image: url("../../images/banner/banner-bg-4.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.heading-one {
+  font-weight: 800;
+  font-size: 40px;
+}

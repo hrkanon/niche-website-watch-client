@@ -1,0 +1,19 @@
+.subscribe-area {
+  width: 200px;
+  border-bottom: 2px solid black;
+}
+.subscribe-input {
+  background-color: rgb(102, 151, 162);
+  border: none;
+  padding: 2px 5px;
+  width: 160px;
+}
+.mail {
+  cursor: pointer;
+}
+.icon {
+  font-size: 30px;
+}
+.footer {
+  background-color: rgb(102, 151, 162);
+}
