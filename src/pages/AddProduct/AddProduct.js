@@ -6,7 +6,11 @@ import "./AddProduct.css";
 
 const AddProduct = () => {
   const history = useHistory();
-  const { register, handleSubmit, reset } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   const onSubmit = (data) => {
     axios
@@ -27,23 +31,27 @@ const AddProduct = () => {
         <hr />
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
+            required
             className="py-2 ps-2"
-            {...register("title", { required: true, maxLength: 20 })}
+            {...register("title", { required: true, maxLength: 30 })}
             placeholder="Title"
           />
           <textarea
+            required
             className="py-2 ps-2"
             {...register("description")}
             placeholder="Description"
           />
           <input
             className="py-2 ps-2"
+            required
             type="number"
-            {...register("price")}
+            {...register("price", { required: true })}
             placeholder="Price"
           />
           <input
             className="py-2 ps-2"
+            required
             {...register("img")}
             placeholder="image url"
           />

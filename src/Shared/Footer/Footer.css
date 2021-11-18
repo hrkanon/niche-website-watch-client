@@ -1,12 +1,13 @@
 .subscribe-area {
-  width: 200px;
-  border-bottom: 2px solid black;
+  width: 90%;
+  border-bottom: 1px solid black;
 }
 .subscribe-input {
   background-color: rgb(102, 151, 162);
   border: none;
   padding: 2px 5px;
-  width: 160px;
+  width: 75%;
+  margin-right: 6px;
 }
 .mail {
   cursor: pointer;
